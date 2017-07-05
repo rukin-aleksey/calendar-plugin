@@ -1,0 +1,44 @@
+body {
+	margin: 50px;
+}
+
+ 	table {
+      border-collapse: collapse;
+    }
+
+    td,
+    th {
+      border: 2px solid grey;
+      padding: 5px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+      background-color: #E6E6E6 !important;
+    }
+
+.toDay{
+	color: lightblue;
+	background-color: grey;
+	border-radius: 50px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.weekend {
+	background-color: red;
+}
+
+#calendar{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	 justify-content: space-around;
+/*	 align-items: baseline;
+	 align-content: center;*/
+
+}
+
+.calendarList{
+	margin: 10px;
+}
