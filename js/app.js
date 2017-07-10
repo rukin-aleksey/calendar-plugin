@@ -96,7 +96,6 @@ function detectionTodayAndWeekend (blockMonth, year, month,){
 				cell.classList.add('toDay');
 				row.classList.add('thisWeek');
 			}
-
 		}		
 	}
 }
@@ -104,8 +103,6 @@ function detectionTodayAndWeekend (blockMonth, year, month,){
 function createBlockMonth(){
 	for (var i = 0; i<arrayMonth.length; i++)
 	generateMonth(year, i, arrayMonth);
-
-
 };
 
 createBlockMonth();
